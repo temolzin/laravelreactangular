@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="backcrm@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>12.4</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="backcrm">
+      <ObjectId>108507</ObjectId>
+      <StateNumber>2618</StateNumber>
+      <Owner>postgres</Owner>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="bdreplica">
+      <ObjectId>67408</ObjectId>
+      <StateNumber>1779</StateNumber>
+      <Owner>replicator</Owner>
+    </database>
+    <database id="4" parent="1" name="biblioteca">
+      <ObjectId>17913</ObjectId>
+      <StateNumber>1186</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="bibliotecapruebas">
+      <ObjectId>17570</ObjectId>
+      <StateNumber>1185</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="caracteres">
+      <ObjectId>17813</ObjectId>
+      <StateNumber>1071</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="cursoadmin">
+      <ObjectId>18207</ObjectId>
+      <StateNumber>1800</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="cursoadminconsole">
+      <ObjectId>51433</ObjectId>
+      <StateNumber>1704</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="cursoadminresp">
+      <ObjectId>51372</ObjectId>
+      <StateNumber>1626</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="ejemplo">
+      <ObjectId>16385</ObjectId>
+      <StateNumber>489</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="11" parent="1" name="ejemplocurso">
+      <ObjectId>16422</ObjectId>
+      <StateNumber>504</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="12" parent="1" name="escuela">
+      <ObjectId>16802</ObjectId>
+      <StateNumber>714</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="hola">
+      <ObjectId>26448</ObjectId>
+      <StateNumber>1408</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="14" parent="1" name="klanetcrm">
+      <ObjectId>96436</ObjectId>
+      <StateNumber>2109</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="15" parent="1" name="mercuriocrm">
+      <ObjectId>95613</ObjectId>
+      <StateNumber>2056</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="16" parent="1" name="mercuriocrmpublic">
+      <ObjectId>96101</ObjectId>
+      <StateNumber>2088</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="17" parent="1" name="postgres">
+      <ObjectId>13318</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>485</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="18" parent="1" name="prueba">
+      <ObjectId>18247</ObjectId>
+      <StateNumber>1383</StateNumber>
+      <Owner>prueba2</Owner>
+    </database>
+    <database id="19" parent="1" name="prueba2">
+      <ObjectId>18210</ObjectId>
+      <StateNumber>1360</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="20" parent="1" name="prueba4">
+      <ObjectId>18213</ObjectId>
+      <StateNumber>1363</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="21" parent="1" name="pruebauser">
+      <ObjectId>51463</ObjectId>
+      <StateNumber>1733</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="22" parent="1" name="pruebauser2">
+      <ObjectId>51493</ObjectId>
+      <StateNumber>1755</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <schema id="23" parent="2" name="information_schema">
+      <ObjectId>13018</ObjectId>
+      <StateNumber>282</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="24" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>275</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="25" parent="2" name="pg_temp_1">
+      <ObjectId>12314</ObjectId>
+      <StateNumber>133</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="26" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="27" parent="2" name="pg_toast_temp_1">
+      <ObjectId>12315</ObjectId>
+      <StateNumber>133</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="28" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>276</StateNumber>
+      <Owner>postgres</Owner>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+  </database-model>
+</dataSource>
